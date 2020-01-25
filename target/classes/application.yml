@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-client-server
+---
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: true
+server:
+  port: 8072
+eurka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-Url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost

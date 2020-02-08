@@ -8,7 +8,7 @@ spring:
       ribbon:
         enabled: true
 server:
-  port: 8072
+  port: "${temp}"
 eurka:
   client:
     registerWithEureka: true

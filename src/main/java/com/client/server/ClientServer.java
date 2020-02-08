@@ -1,5 +1,6 @@
 package com.client.server;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -14,14 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class ClientServer {
+    @Value("${service.instance.name}")
+    private String instance;
 
     public static void main(String... args) {
         SpringApplication.run(ClientServer.class, args);
     }
 
+    @RequestMapping("/")
+    @GetMapping
+    public String instance() {
+        return "Hello from "+instance;
+    }
+
     @RequestMapping("/rest/hello/server")
     @GetMapping
     public String home() {
-        return "Hello World";
+        return "Hello World from"+instance;
     }
 }

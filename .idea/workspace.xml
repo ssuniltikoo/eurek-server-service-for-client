@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdfa8725-71d0-4b22-bc5f-cabc7b7b0d9e" name="Default Changelist" comment="" />
+    <list default="true" id="fdfa8725-71d0-4b22-bc5f-cabc7b7b0d9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/server/ClientServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/server/ClientServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/client/server/ClientServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/client/server/ClientServer.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +32,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1Wt5KvFf0TU2m1UFtxpHMQAnG9T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -37,6 +50,44 @@
   </component>
   <component name="RunManager" selected="Application.ClientServer">
     <configuration name="ClientServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="temp" value="8081" />
+        <env name="service.instance.name" value="1" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.client.server.ClientServer" />
+      <module name="eurekaclientserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.client.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServer2" type="Application" factoryName="Application">
+      <envs>
+        <env name="temp" value="8082" />
+        <env name="service.instance.name" value="2" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.client.server.ClientServer" />
+      <module name="eurekaclientserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.client.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServer3" type="Application" factoryName="Application">
+      <envs>
+        <env name="temp" value="8083" />
+        <env name="service.instance.name" value="3" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.client.server.ClientServer" />
       <module name="eurekaclientserver" />
       <extension name="coverage">
@@ -73,6 +124,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ClientServer2" />
+      <item itemvalue="Application.ClientServer3" />
       <item itemvalue="Application.ClientServer" />
       <item itemvalue="Maven.eureka-client-server []" />
     </list>
@@ -94,5 +147,18 @@
       <updated>1579955989023</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

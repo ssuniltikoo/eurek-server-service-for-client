@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @SpringBootApplication
 @RestController
+
 public class ClientServer {
     @Value("${service.instance.name}")
     private String instance;
